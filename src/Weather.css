@@ -1,0 +1,40 @@
+.city-name{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Bahnschrift;
+    margin-bottom: 10px;
+    /*text-decoration: underline;*/
+}
+
+.weather-description{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.temperature-current{
+    /*font-weight: bold;*/
+    font-size:40px;
+    float:right;
+    z-index:10;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+}
+.humidity{
+    font-weight: bold;
+    font-size: 18px;
+    /*color: tomato;*/
+}
+
+.wind-speed{
+    font-weight: bold;
+    font-size: 18px;
+}
+.text{
+    font-size: 15px;
+}
+
+.content-text{
+    font-weight: normal;
+
+}

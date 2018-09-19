@@ -1,0 +1,36 @@
+
+.temperature-box{
+  height: 25px;
+  width: inherit;
+    margin-top: 22px;
+    opacity: 0.5;
+
+}
+
+.weather-box{
+    /*height: 100px;*/
+    width: 250px;
+    /*background-color: darksalmon;*/
+
+}
+.temperature-hot{
+    background-color: tomato;
+}
+
+.temperature-cold{
+    background-color: lightskyblue;
+}
+
+.temperature-good{
+    background-color: darkseagreen;
+}
+
+.city-icon{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.city-icon:hover{
+    color: aqua;
+}
