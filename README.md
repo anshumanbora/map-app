@@ -1,7 +1,7 @@
-### 1. Description
+### 1 Description
 An application which gets weather updates of your favorite cities.
 
-### 2. Implementation
+### 2 Implementation
 LoadScreen: The landing page which a user will encounter when they start this application.
 
 MapInterface: The main component which renders a map with some important cities.  
@@ -38,10 +38,11 @@ React wrapper for MapBox: [react-map-gl](https://uber.github.io/react-map-gl/#/)
 ####  2.2.2 Open Weather Map
 Weather data for cities: [openweathermap](https://openweathermap.org)
 
-### 3. Features
+### 3 Features
 I had a great time working with this project. In addition to completing the basic requirements I thought of adding some stuff. 
 #### 3.1 Landing Page 
-I came up with a landing page which has some pretty neat weather gifs to give the user a welcoming feeling. 
+I came up with a landing page which has some pretty neat weather gifs to give the user a welcoming feeling. Source:[https://www.amcharts.com/free-animated-svg-weather-icons/](https://www.amcharts.com/free-animated-svg-weather-icons/) 
+
 #### 3.2 Transition Animation
 When the map is being loaded, I added some transition animation which helps the map gradually fade into existance. In addition to being a cool effect, the animation hides the delay in the API response.   
 #### 3.3 Important Info
@@ -59,18 +60,19 @@ Also, to make life even easier, I came up with a color code for the current temp
     Red: when it's really hot(over 80F).
 #### 3.5 Responsive
 I have also tried to make the application responsive with some basic media queries and Bootstrap classes.      
-##### Landing Page
+### 4 Images
+#### 4.1 Landing Page
 ![Main list](https://raw.githubusercontent.com/anshumanbora/map-app/master/images/landingPage.PNG)
 
-##### The Map
+#### 4.2 The Map
 ![Details](https://raw.githubusercontent.com/anshumanbora/map-app/master/images/Map.PNG)
 
-##### Weather Details
+#### 4.3 Weather Details
 ![Details](https://raw.githubusercontent.com/anshumanbora/map-app/master/images/WeatherUpdate.PNG)
 
 
 ### Running the application
-
+    0. Ensure that you have npm installed in your system.
     1. Clone this application.
     2. On your command line, go to the root of this project and "npm install" to install all dependencies.
     3. "npm run start" to start the application. It should launch automatically on your browser(or check at http://localhost:3000).
