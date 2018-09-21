@@ -1,0 +1,12 @@
+.load-screen-background{
+    background-color: black;
+    color: white;
+    align-content: center;
+}
+.welcome-message{
+    font-size: 20px;
+}
+.space-top{
+    margin-top: 200px;
+}
+

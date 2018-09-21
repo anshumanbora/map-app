@@ -1,0 +1,41 @@
+.city-name{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Bahnschrift;
+}
+.weather-info{
+    font-weight: bold;
+    font-size: 15px;
+}
+.temperature-current{
+    font-size:30px;
+    float:right;
+    z-index:10;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    padding-top: 0;
+    color: slategray;
+    font-family: Calibri;
+}
+.temperature-box{
+    height: 25px;
+    width: inherit;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+.text{
+    font-size: 12px;
+    font-weight: normal;
+}
+/**
+Making the popup and some text-sizes smaller for smaller screen sizes
+ */
+@media screen and (max-width: 600px){
+    .weather-box{
+        width: 150px;
+    }
+    .temperature-current{
+        font-size:25px;
+    }
+}
