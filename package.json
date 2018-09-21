@@ -2,8 +2,10 @@
   "name": "map_app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://anshumabbora.github.io/map-app",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.0",
     "jquery": "^3.3.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -12,9 +14,12 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+    },
+  "devDependencies": {}
 }
