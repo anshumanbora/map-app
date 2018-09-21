@@ -63,10 +63,10 @@ I have also tried to make the application responsive with some basic media queri
 ![Main list](https://raw.githubusercontent.com/anshumanbora/map-app/master/images/landingPage.PNG)
 
 ##### The Map
-![Details](https://raw.githubusercontent.com/anshumanbora/mapp-app/master/images/Map.PNG)
+![Details](https://raw.githubusercontent.com/anshumanbora/map-app/master/images/Map.PNG)
 
 ##### Weather Details
-![Details](https://raw.githubusercontent.com/anshumanbora/mapp-app/master/images/WeatherUpdate.PNG)
+![Details](https://raw.githubusercontent.com/anshumanbora/map-app/master/images/WeatherUpdate.PNG)
 
 
 ### Running the application
