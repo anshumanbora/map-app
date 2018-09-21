@@ -2,11 +2,9 @@
 An application which gets weather updates of your favorite cities.
 
 ### 2 Implementation
-LoadScreen: The landing page which a user will encounter when they start this application.
-
-MapInterface: The main component which renders a map with some important cities.  
-
-WeatherDetails: A stateless component which generates JSX to fill the contents of a popup box.
+1. LoadScreen: The landing page which a user will encounter when they start this application.
+2. MapInterface: The main component which renders a map with some important cities.  
+3. WeatherDetails: A stateless component which generates JSX to fill the contents of a popup box.
 I could have made this as a method inside the MapInterface component but as I see as an added functionality to the map component I made it a separate component.      
 
 #### 2.1 Directory Structure
@@ -71,11 +69,15 @@ I have also tried to make the application responsive with some basic media queri
 ![Details](https://raw.githubusercontent.com/anshumanbora/map-app/master/images/WeatherUpdate.PNG)
 
 
-### Running the application
+### 5 Running the application
     0. Ensure that you have npm installed in your system.
     1. Clone this application.
     2. On your command line, go to the root of this project and "npm install" to install all dependencies.
     3. "npm run start" to start the application. It should launch automatically on your browser(or check at http://localhost:3000).
     
-### Link
-[coming up]()
+### Issues
+
+1. The location of New York used by the Map's API and the location used by the weather API is different. Hence the popup box for New York appears far away from the location.
+2. The ids for Denver and New York were interchanged in the JSON data given. I fixed it.
+3. Resizing the screen after opening the map won't make the map respond to the change of screen size. After resizing the screen size you need to refresh to make it happen. This is bug which I will tackle shortly in the future.
+3.1 The hack that I just mentioned(refresh after resize) seems to be working for some specific screen sizes(411x731,411x823,768x1024 and other higher resolutions). It's really weird and as of now I'm not able to determine the cause of this.  
